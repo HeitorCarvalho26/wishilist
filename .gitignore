@@ -1,0 +1,13 @@
+# Ignora o ambiente virtual
+.venv/
+
+# Ignora os arquivos compliados do Python
+__pycache__/
+*.pyc
+
+# Ignora aquivos do banco de dados
+data/
+*.db
+*.sqlite
+*.sqlite3
+
