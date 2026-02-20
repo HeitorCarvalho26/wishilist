@@ -1,7 +1,70 @@
-body{
-    background-color: white;
+body {
+    background: linear-gradient(135deg, #fff3e6, #ffe0cc);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-*{
+h1, h2 {
+    color: #e65100;
+    font-weight: 700;
     text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
 }
+
+.card {
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 12px 30px rgba(230, 81, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 18px 40px rgba(230, 81, 0, 0.25);
+}
+
+.badge {
+    font-size: 0.85rem;
+    padding: 6px 14px;
+    border-radius: 20px;
+    background-color: #ff9800;
+    color: white;
+    font-weight: 500;
+}
+
+.text-muted strong {
+    color: #ff6f00;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #ff6f00, #ff9800);
+    border: none;
+    border-radius: 10px;
+    padding: 8px 18px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #e65100, #ff6f00);
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 1100px;
+}
+
+p {
+    font-size: 1.1rem;
+    text-align: center;
+    color: #5d4037;
+}
+
+.link-lista {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #ff6f00, #ff9800);
+    color

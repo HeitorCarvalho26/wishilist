@@ -1,7 +1,9 @@
-{%extends "base.html" %}
 
-{%block content%}
-    <p>Seja bem-vindo</p>
-    <a href="/wishlist">Lista de desejo</a>
-    <p>Lista de desejos para desejos seus</p>
-{%endblock%}
+{% extends "base.html" %} <!--Herdar todas as carateristicas de base.hmlt-->
+
+{% block content %}
+    <div class="container mt-5">
+        <p>Seja bem-vindo!</p>
+        <a href="/lista" class="link-lista">Estre em sua lista de desejo</a>
+    </div>
+{% endblock %}
